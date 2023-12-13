@@ -2,18 +2,15 @@
 <html lang="en">
 
 <head>
-  <title>Bootstrap Example</title>
+  <title>Dashboard</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <!-- <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script> -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   <link rel="stylesheet" href="styles/style.css">
-  
-  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
 </head>
 
 <body>
@@ -25,6 +22,7 @@
       integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
       crossorigin="anonymous"></script>
   <script src="scripts/script.js" defer></script>
+  <!-- responsive navbar on toggle collapse -->
   <nav class="navbar navbar-inverse visible-xs" id="responsiveNavbar">
     <div class="container-fluid">
         <div class="navbar-header">
@@ -113,8 +111,8 @@
 
   <div class="container-fluid">
     <div class="row content">
+      <!-- navbar -->
       <div class="col-sm-3 sidenav hidden-xs">
-        <!-- <h2>Logo</h2> -->
         <ul class="nav nav-pills nav-stacked">
           <div class="sidenav" id="sidenav">
             <button class="dropdown-btn">DASHBOARD <i class="icon fas fa-angle-right"></i></button>
@@ -186,7 +184,7 @@
           </div>
         </ul>
       </div>
-      
+      <!-- logout button -->
       <button class="logout-btn" onclick="window.location.href='#'">LOGOUT</button>
       <div class="col-sm-9">
         <div class="row" style="background-color: #faf7f7;">
@@ -226,6 +224,7 @@
             </div>
           </div>
         </div>
+         <!-- 2nd section -->
         <div class="row" style="margin-top: 50px;">
           <div class="col-sm-3">
             <div class="well">
@@ -292,7 +291,5 @@
       </div>
     </div>
   </div>
-
 </body>
-
 </html>

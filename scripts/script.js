@@ -1,13 +1,13 @@
 
 // Function to toggle text and apply styles
 function toggleText(button) {
-    // Find the nearest parent with the class 'btn'
+    //  nearest parent with the class 'btn'
     var btnContainer = $(button).closest('.btn');
 
     if ($(button).text() === 'No') {
         $(button).text('Yes');
         $(button).removeClass('toggle-off').addClass('toggle-on');
-        btnContainer.addClass('table-dark'); // Example toggle, use the appropriate class for your styling
+        btnContainer.addClass('table-dark'); 
     } else {
         $(button).text('No');
         $(button).removeClass('toggle-on').addClass('toggle-off');

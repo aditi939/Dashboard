@@ -1,4 +1,4 @@
-  /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+  /* Set height of the grid so .sidenav can be 100%  */
   .row.content {height: 550px}
     
   /* Set gray background color and 100% height */
@@ -29,9 +29,6 @@
     width: 100%;
   }
 }
-/* .row{
-  box-shadow: 0 2px 2px 0 whitesmoke;
-} */
 .col-sm-9{
   margin-top:20px;
 }
@@ -40,6 +37,7 @@
     color: coral;
     font-weight: bolder;
 }
+/* table main heading */
 .heading{
     margin: 16px 0 20px;
     font-weight: bold;
@@ -49,8 +47,6 @@
   }
   
   .right-box {
-    /* top: 20px; 
-    left: 20px;  */
     margin-left: 20px;
   }
   .avatar-name {
@@ -78,11 +74,9 @@
   }
   .btn{
     margin-left: 40px;
-    /* margin-top: 42px; */
 }
 .toggle{
     margin-top: 10px; 
-    /* padding: 10px; */
 }
 .toggle-off {
   background-color: red;
@@ -167,11 +161,11 @@ tr:nth-child(odd) {
   display: block;
   padding: 8px;
   text-decoration: none;
-  color: #495057; /* Set your desired link color */
+  color: #495057;
 }
 /* dropdown list hover effect  */
 .dropdown-container a:hover {
-  background-color: #f0f0f0; /* Set your desired link background color on hover */
+  background-color: #f0f0f0; 
 }
 /* sidebar responsive */
 #responsiveSidenav {
