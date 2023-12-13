@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <!-- <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="styles/style.css">
+  
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+</head>
+
+<body>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"></script>
+  <script src="scripts/script.js" defer></script>
+  <nav class="navbar navbar-inverse visible-xs" id="responsiveNavbar">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsiveNavbarContent">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" id="responsiveNavbarContent">
+            <ul class="nav navbar-nav">
+                <div class="sidenav" id="responsiveSidenav">
+                    <!-- Static Dropdown items -->
+                    <button class="dropdown-btn">DASHBOARD <i class="icon fas fa-angle-right"></i></button>
+                    <div class="dropdown-container">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+
+                    <button class="dropdown-btn">PLAN MASTER <i class="icon fas fa-angle-right"></i></button>
+                    <div class="dropdown-container">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                    <button class="dropdown-btn">ISSUE POLICY <i class="icon fas fa-angle-right"></i></button>
+                    <div class="dropdown-container">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                    <button class="dropdown-btn">COMMISSION REPORT <i class="icon fas fa-angle-right"></i></button>
+                    <div class="dropdown-container">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                    <button class="dropdown-btn">COMMISSION PAYMENT <i class="icon fas fa-angle-right"></i></button>
+                    <div class="dropdown-container">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                    <button class="dropdown-btn">CLAIMS <i class="icon fas fa-angle-right"></i></button>
+                    <div class="dropdown-container">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                    <button class="dropdown-btn">PAYMENT <i class="icon fas fa-angle-right"></i></button>
+                    <div class="dropdown-container">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                    <button class="dropdown-btn">INVOICES <i class="icon fas fa-angle-right"></i></button>
+                    <div class="dropdown-container">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                    <button class="dropdown-btn">ALL TRANSACTIONS <i class="icon fas fa-angle-right"></i></button>
+                    <div class="dropdown-container">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                    <button class="dropdown-btn">ISSUED TICKET <i class="icon fas fa-angle-right"></i></button>
+                    <div class="dropdown-container">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                    <button class="dropdown-btn">CHANGE PASSWORD <i class="icon fas fa-angle-right"></i></button>
+                    <div class="dropdown-container">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </div>
+            </ul>
+        </div>
+    </div>
+  </nav>
+  
+
+  <div class="container-fluid">
+    <div class="row content">
+      <div class="col-sm-3 sidenav hidden-xs">
+        <!-- <h2>Logo</h2> -->
+        <ul class="nav nav-pills nav-stacked">
+          <div class="sidenav" id="sidenav">
+            <button class="dropdown-btn">DASHBOARD <i class="icon fas fa-angle-right"></i></button>
+            <div class="dropdown-container">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+            </div>
+            <button class="dropdown-btn">PLAN MASTER <i class="icon fas fa-angle-right"></i></button>
+            <div class="dropdown-container">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+            </div>
+            <button class="dropdown-btn">ISSUE POLICY <i class="icon fas fa-angle-right"></i></button>
+            <div class="dropdown-container">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+            </div>
+            <button class="dropdown-btn">COMMISSION REPORT <i class="icon fas fa-angle-right"></i></button>
+            <div class="dropdown-container">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+            </div>
+            <button class="dropdown-btn">COMMISSION PAYMENT <i class="icon fas fa-angle-right"></i></button>
+            <div class="dropdown-container">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+            </div>
+            <button class="dropdown-btn">CLAIMS <i class="icon fas fa-angle-right"></i></button>
+            <div class="dropdown-container">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+            </div>
+            <button class="dropdown-btn">PAYMENT <i class="icon fas fa-angle-right"></i></button>
+            <div class="dropdown-container">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+            </div>
+            <button class="dropdown-btn">INVOICES <i class="icon fas fa-angle-right"></i></button>
+            <div class="dropdown-container">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+            </div>
+            <button class="dropdown-btn">ALL TRANSACTIONS <i class="icon fas fa-angle-right"></i></button>
+            <div class="dropdown-container">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+            </div>
+            <button class="dropdown-btn">ISSUED TICKET <i class="icon fas fa-angle-right"></i></button>
+            <div class="dropdown-container">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+            </div>
+            <button class="dropdown-btn">CHANGE PASSWORD <i class="icon fas fa-angle-right"></i></button>
+            <div class="dropdown-container">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+            </div>
+          </div>
+        </ul>
+      </div>
+      
+      <button class="logout-btn">LOGOUT</button>
+      <div class="col-sm-9">
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="">
+              <div class="col">
+                <div class="right-box">
+                  <img src="assets/img_avatar.png" alt="Avatar" style="width:100px">
+                </div>
+                <div class="avatar-name">
+                  <b>PRATEEK GUPTA</b>
+                  <p>New Delhi</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="">
+              <div class="col">
+                <div class="left-box">
+                    <p>ATOAI MEMBER</p>
+                    <p>Register with Ministry of Tourism</p>
+                    <p>Register with State Tourism</p>
+                </div>
+                <div class="btn">
+                    <div class="toggle">
+                        <button class="toggleButton toggle-off" onclick="toggleText(this)">No</button>
+                    </div>
+                    <div class="toggle">
+                        <button class="toggleButton toggle-off" onclick="toggleText(this)">No</button>
+                    </div>
+                    <div class="toggle">
+                        <button class="toggleButton toggle-off" onclick="toggleText(this)">No</button>
+                    </div>
+                </div>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="row" style="margin-top: 20px;">
+          <div class="col-sm-3">
+            <div class="well">
+              <h5 class="card-title">New issue Policy</h5>
+              <p>2</p>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="well">
+              <h5 class="card-title">Total insurance Amount</h5>
+              <p>INR 375.00</p>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="well">
+              <h5 class="card-title">Operator Commission</h5>
+              <p>INR26.25</p>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="well">
+              <h5 class="card-title">Operator Credit Balance</h5>
+              <p>INR5425.00</p>
+            </div>
+          </div>
+        </div>
+        <h2 class="heading">RECENT POLICY ISSUED</h2>
+        <!-- <div class="container mt-5"> -->
+          <div class="table-responsive">
+            <table class="table table-style small-font-size">
+              <thead>
+                <tr class="table-heading">
+                  <th>Policy Number</th>
+                  <th>Customer</th>
+                  <th>Customer Contact</th>
+                  <th>DOB</th>
+                  <th>Policy</th>
+                  <th>Start Date</th>
+                  <th>End Date</th>
+                </tr>
+              </thead>
+              <tbody class="table-style">
+                <tr class="table-content">
+                  <td style="width: 12%;">ASC360-MDBK-11-2023-P117176</td>
+                  <td>PG</td>
+                  <td style="width: 12%;">ASC360-MDBK-11-2023-P117176</td>
+                  <td>08-02-1996</td>
+                  <td style="width: 20%;">ASC360-Tandem Paragliding Plan Per Flight/1 Day- Plan2</td>
+                  <td>04-01-2023</td>
+                  <td>Per Flight/1 Day</td>
+                </tr>
+                <tr class="table-content">
+                  <td>ASC360-MDBK-11-2022-P112654</td>
+                  <td style="width: 10%;">Sanvi Sajin</td>
+                  <td style="width: 15%;">ASC360-MDBK-11-2023-P117176</td>
+                  <td style="width: 10%;">25-11-1996</td>
+                  <td>ASC360 - DOM Adventure Cover- Level 1 - 5 Days - Plan 2</td>
+                  <td>05-10-2022</td>
+                  <td>5</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        <!-- </div> -->
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>

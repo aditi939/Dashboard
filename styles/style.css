@@ -1,0 +1,172 @@
+  /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+  .row.content {height: 550px}
+    
+  /* Set gray background color and 100% height */
+  .sidenav {
+    background-color: #f1f1f1;
+    height: 100%;
+  }
+      
+  /* On small screens, set height to 'auto' for the grid */
+  @media screen and (max-width: 767px) {
+    .row.content {height: auto;} 
+  }
+/* logout button */
+  .logout-btn{
+    background-color: coral;
+    float: right;
+    border:none;
+    padding: 4px 38px;
+    color:white;
+    margin-right: 14px;
+}
+.col-sm-9{
+  margin-top:20px;
+}
+.card-title{
+    font-size: small;
+    color: coral;
+    font-weight: bolder;
+}
+.heading{
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  img {
+    border-radius: 50%;
+  }
+  
+  /* .right-box {
+    top: 20px; 
+    left: 20px; 
+  } */
+  .avatar-name {
+    position: absolute;
+    top: 20px; /* Adjust the top position as needed */
+    left: 150px; /* Adjust the left position as needed */
+  }
+  .left-box{
+    margin-top: 20px; 
+    float: left;
+ }
+  .left-box p{
+    color: dimgrey;
+    font-size: small;
+    font-weight: 500;
+  }
+  .btn{
+    margin-left: 40px;
+    /* margin-top: 42px; */
+}
+.toggle{
+    margin-top: 10px; 
+    /* padding: 10px; */
+}
+.toggle-off {
+  background-color: red;
+  color: white;
+  border: none;
+}
+
+.toggle-on {
+  background-color: green;
+  color: white;
+  border: none;
+}
+.toggle-off.toggleButton {
+    padding: 0px 18px;
+    font-size: small;
+}
+
+.toggle-on.toggleButton {
+    padding: 0px 18px;
+    font-size: small;
+}
+.small-font-size{
+  font-size: small;
+}
+.table-style thead tr.table-heading th {
+  background-color: coral !important;
+  color: white; /* Set text color for better contrast */
+  border: 4px solid;
+}
+.table-content td{
+  border: 4px solid white;
+}
+.table-style{
+  font-size: x-small;
+  color: gray;
+  font-weight: 500;
+}
+tr:nth-child(odd) { 
+  background-color: rgb(245, 242, 242); 
+} 
+
+.sidenav {
+  background-color: #f8f9fa; 
+  /* padding-top: 20px; */
+  padding: 10px 0px 10px 6px;
+}
+/* dropdown button */
+.dropdown-btn {
+  width: 100%;
+  text-align: left;
+  padding: 12px;
+  background-color: coral; 
+  color: #ffffff; 
+  font-weight: 300;
+  margin-top: 2px;
+  border: none;
+  cursor: pointer;
+  position: relative;
+}
+/* dropdown button hover effect */
+.dropdown-btn:hover {
+  background-color: white;
+  color: black; 
+  font-weight: bold;
+  border: 1px solid rgb(229, 226, 226);
+  box-shadow: 0 5px 20px 0 whitesmoke;
+}
+/* dropdown icon  */
+.icon {
+  position: absolute;
+  right: 1rem; 
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+}
+/* dropdown list container  */
+.dropdown-container {
+  display: none;
+  padding: 10px;
+}
+.dropdown-container a {
+  display: block;
+  padding: 8px;
+  text-decoration: none;
+  color: #495057; /* Set your desired link color */
+}
+/* dropdown list hover effect  */
+.dropdown-container a:hover {
+  background-color: #f0f0f0; /* Set your desired link background color on hover */
+}
+/* sidebar responsive */
+#responsiveSidenav {
+  display: none;
+}
+#responsiveSidenav.open {
+  display: block;
+}
+.dropdown-btn {
+  width: 100%;
+  text-align: left;
+  padding: 12px;
+}
+.dropdown-container {
+  display: none;
+  padding: 8px 0;
+}
+.dropdown-btn.active + .dropdown-container {
+  display: block;
+}
