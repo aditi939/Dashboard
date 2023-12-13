@@ -37,7 +37,6 @@
         <div class="collapse navbar-collapse" id="responsiveNavbarContent">
             <ul class="nav navbar-nav">
                 <div class="sidenav" id="responsiveSidenav">
-                    <!-- Static Dropdown items -->
                     <button class="dropdown-btn">DASHBOARD <i class="icon fas fa-angle-right"></i></button>
                     <div class="dropdown-container">
                         <a href="#">Link 1</a>
@@ -188,9 +187,9 @@
         </ul>
       </div>
       
-      <button class="logout-btn">LOGOUT</button>
+      <button class="logout-btn" onclick="window.location.href='#'">LOGOUT</button>
       <div class="col-sm-9">
-        <div class="row">
+        <div class="row" style="background-color: #faf7f7;">
           <div class="col-sm-6">
             <div class="">
               <div class="col">
@@ -198,8 +197,8 @@
                   <img src="assets/img_avatar.png" alt="Avatar" style="width:100px">
                 </div>
                 <div class="avatar-name">
-                  <b>PRATEEK GUPTA</b>
-                  <p>New Delhi</p>
+                  <p class="name">PRATEEK GUPTA</p>
+                  <p class="city">New Delhi</p>
                 </div>
               </div>
             </div>
@@ -208,7 +207,7 @@
             <div class="">
               <div class="col">
                 <div class="left-box">
-                    <p>ATOAI MEMBER</p>
+                    <p>ATOAI Member</p>
                     <p>Register with Ministry of Tourism</p>
                     <p>Register with State Tourism</p>
                 </div>
@@ -227,29 +226,29 @@
             </div>
           </div>
         </div>
-        <div class="row" style="margin-top: 20px;">
+        <div class="row" style="margin-top: 50px;">
           <div class="col-sm-3">
             <div class="well">
               <h5 class="card-title">New issue Policy</h5>
-              <p>2</p>
+              <p><span class='bigger'>2</span></p>
             </div>
           </div>
           <div class="col-sm-3">
             <div class="well">
               <h5 class="card-title">Total insurance Amount</h5>
-              <p>INR 375.00</p>
+              <p>INR <span class='bigger'>375.00</span></p>
             </div>
           </div>
           <div class="col-sm-3">
             <div class="well">
               <h5 class="card-title">Operator Commission</h5>
-              <p>INR26.25</p>
+              <p>INR <span class='bigger'>26.25</span></p>
             </div>
           </div>
           <div class="col-sm-3">
             <div class="well">
               <h5 class="card-title">Operator Credit Balance</h5>
-              <p>INR5425.00</p>
+              <p>INR <span class='bigger'>5425.00</span></p>
             </div>
           </div>
         </div>
@@ -290,7 +289,6 @@
               </tbody>
             </table>
           </div>
-        <!-- </div> -->
       </div>
     </div>
   </div>
